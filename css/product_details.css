@@ -1,0 +1,140 @@
+.product_details{
+    margin-top: 80px;
+}
+.details_container{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details_box {
+    padding: 20px;
+    width: 50%;
+}
+.details_box img{
+    width: 100%;
+    padding: 0;
+}
+.details_box h4{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.details_box select{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding:10px 3px;
+    margin-bottom: 20px;
+    width:100px;
+}
+.details_box input{
+    padding: 10px;
+    display: block;
+    width: 65px;
+    cursor: pointer;
+}
+label{
+    display: block;
+    color: gray;
+}
+.fa-indent{
+    color: #ff523b;
+    margin-left: 10px;
+}
+.smallimg_container{
+    display: flex;
+    justify-content:space-between;
+}
+.smallimg_box{
+    flex-basis: 24%;
+    margin:0px;
+}
+.smallimg_box{
+    width: 100%;
+    cursor: pointer;
+}
+.viewmore{
+    margin-right: 30px;
+}
+.viewmore a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    position: relative;
+}
+
+.fa-arrow-right-long{
+    position: absolute;
+    bottom:20%;
+    right: -23%;
+    opacity: 0;
+    transform: translateX(0);
+    transition: 0.5s;
+}
+.viewmore a:hover .fa-arrow-right-long{
+    transform: translateX(40%);
+    opacity: 1;
+    
+}
+
+
+@media screen and (max-width:900px){
+    .details_box,.details_container{
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+
+    }
+    .product_details{
+        width: 100%;
+        margin-top: 0;
+    }
+    .featured_container{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:1100px) and (min-width:901px){
+    #details h1,#details h4,#details select,#details label,#details .cart{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #details h1{
+        font-size: 23px;
+    }
+    #details p{
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .details_container{
+        flex-direction: column;
+        width: 90%;
+       
+    }
+    .product_details{
+        width: 100%;
+        margin-top: 0;
+    }
+    .details_box{
+        width: 100%;
+    }
+    .details_box p{
+        font-size: 14px;
+    }
+    .title_container{
+        width:90%;
+    }
+    .title_container h2{
+        font-size: 20px;
+    }
+    .featured_container{
+        width: 90%;
+    }
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - RedStore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <script src="https://kit.fontawesome.com/4d2950542b.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhai+2&family=Khand:wght@500;700&family=Raleway:wght@100&family=Roboto+Serif&family=Roboto:wght@100&family=Rowdies:wght@300&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="head">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="nav">
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </div>
+        <img src="images/cart.png" class="cart">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</section>
+   
+    <div class="title_container">
+        <h2>All Products</h2>
+        <select name="" id="sort">
+            <option value="">Default Shorting</option>
+            <option value="">Sort By Price</option>
+            <option value="">Sort By Popularity</option>
+            <option value="">Sort By Rating</option>
+            <option value="">Sort By sale</option>
+        </select>
+    </div>
+        <div class="featured_container product">
+             <div class="featured_box"><a href="product_details.html">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </a>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Blue Battir</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Chappal</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>$2000.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Tracky Trunk</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$99.00</p>
+            </div>
+        </div>
+        <div class="featured_container">
+            <div class="featured_box">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Blue Battir</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Chappal</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>$2000.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Tracky Trunk</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$99.00</p>
+            </div>
+        </div>
+        <div class="featured_container">
+            <div class="featured_box">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-10.jpg" alt="">
+                <h4>Blue Battir</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$150.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-11.jpg" alt="">
+                <h4>Chappal</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>$2000.00</p>
+            </div>
+            <div class="featured_box">
+                <img src="images/product-12.jpg" alt="">
+                <h4>Tracky Trunk</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>$99.00</p>
+            </div>
+        </div>
+        <div class="pagebtncontainer">
+            <div class="pagebtn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+        
+
+    <!------------------------------------- footer------------------------------------>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_box">
+                <h3>Download Our App</h3>
+                <p>Download app for Android and IOS mobile phones.</p>
+                <div class="applogo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer_box">
+                <img src="images/logo-white.png" alt="">
+                <p>Our Purpose is to make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="footer_box smallbox">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Joint Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer_box smallbox">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>You Tube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - RedStore</p>
+    </footer>
+
+    <!-- js for toggle menu -->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight="0px";
+
+        function menutoggle(){
+            if(menuitems.style.maxHeight=="0px"){
+                menuitems.style.maxHeight="280px"
+            }
+            else{
+                menuitems.style.maxHeight="0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
