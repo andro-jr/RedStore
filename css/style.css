@@ -28,6 +28,7 @@ header{
 .nav{
     flex:1;
     text-align: right;
+    z-index: 2;
 }
 .navitems{
     display: inline-block;
